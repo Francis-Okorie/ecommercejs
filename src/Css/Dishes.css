@@ -1,0 +1,78 @@
+.dishes {
+    display: flex;
+    padding: 9rem 3rem 20rem 3rem;
+    color: black;
+    background-image: url('../img/SVG/dishes-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 8rem 0rem;
+    overflow-x: hidden;
+}
+
+.dishes__wrapper {
+    padding-bottom: 5rem;
+}
+
+.dishes__box {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.dishes-card {
+    margin-top: 4rem;
+    background-color: white;
+    padding: 2rem 0 2rem 4rem;
+    display: flex;
+    flex-direction: column;
+    border-left: #e31b0e solid 4px;
+}
+
+.dishes-card h3 {
+    font-family: myFont;
+}
+
+.dishes-card img {
+    height: 10rem;
+    width: 12rem;
+    object-fit: cover;
+    align-self: flex-end;
+    margin-bottom: 3rem;
+}
+
+.dishes-card__heading {
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+
+button{
+    font-size: .7rem;
+    background-color: #ffd800;
+    border: none;
+    outline: none;
+    font-family: myFont;
+    text-transform: uppercase;
+    padding: .8rem 1.5rem;
+}
+
+.dishes-card__price {
+    font-family: myFont2;
+    font-size: .9rem;
+}
+
+.dishes-card__cta {
+    display: flex;
+    margin-top: .1rem;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.dishes-card__tag {
+    text-transform: uppercase;
+    font-size: .6rem;
+    color: #696969;
+    font-family: myFont;
+}

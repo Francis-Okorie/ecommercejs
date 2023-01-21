@@ -1,0 +1,148 @@
+header {
+    background-image: url('../img/SVG/yellow-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffd800;
+    overflow: hidden;
+    height: 38rem;
+}
+
+.header-main-content {
+    overflow: hidden;
+}
+
+Header::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 100%;
+    background-image: url('../img/SVG/red-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e31b0e;
+    background-position: bottom;
+}
+
+.header {
+    position: relative;
+    z-index: 3;
+    width: 100%;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 5rem;
+}
+
+li {
+    list-style: none;
+    padding: 1.5rem 0rem;
+    font-family: myFont;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: all .1s ease;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    font-weight: myFont;
+}
+
+.hero-text span {
+    text-transform: uppercase;
+    font-size: .6rem;
+    letter-spacing: 2px;
+}
+
+.hero-text {
+    margin-top: 2rem;
+}
+
+.discount-span {
+    font-size: .6rem;
+    font-family: myFont;
+    text-transform: uppercase;
+    display: block;
+}
+
+.cta {
+    margin-top: 4rem;
+    background-color: #ffd800;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-size: .5rem;
+    font-family: myFont2;
+    font-weight: 700;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.discount {
+    color: white;
+    font-size: 3rem;
+}
+
+@media screen and (min-width: 900px) {
+    .links-nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .sauce-img {
+        width: 50%;
+        margin-left: 50%;
+    }
+
+    .burger__img{
+        width: 80%;
+    }
+
+    .red-bg-content {
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 5rem;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 4rem;
+    }
+
+    .burger {
+        position: absolute;
+        top: 20%;
+        left: 30%;
+        
+    }
+
+    .copy {
+        position: absolute;
+        right: 5%;
+        bottom: -5%;
+        color: white;
+        padding: 2rem;
+        border-left: #ffd800 solid 3px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .links-nav {
+        display: none;
+    }
+
+    nav .nav__link{
+        display: none;
+    }
+}

@@ -1,0 +1,34 @@
+
+.dinning {
+    display: flex;
+}
+
+@media screen and (max-width: 900px) {
+    .dinning{
+        flex-direction: column;
+        gap: 2rem;
+        padding: 0rem 3rem;
+        margin-top: 6rem;
+    }
+
+    .dinning__img {
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .dinning{
+        flex-direction: row;
+        gap: 8rem;
+        padding: 0rem 12rem;
+        margin-top: 12rem;
+    }
+
+    .about__content {
+        width: 90%;
+    }
+
+    .dinning__img {
+        width: 130%;
+    }
+}

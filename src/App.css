@@ -1,0 +1,14 @@
+@font-face {
+  font-family: myFont3;
+  src: url(../src/font/Sailec-Bold.ttf);
+}
+
+@font-face {
+  font-family: myFont2;
+  src: url(../src/font/Sailec-Medium.ttf);
+}
+
+@font-face {
+  font-family: myFont;
+  src: url(../src/font/Sailec-Regular.ttf);
+}
